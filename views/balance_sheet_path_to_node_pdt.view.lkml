@@ -36,7 +36,7 @@ view: balance_sheet_path_to_node_pdt {
           COALESCE(REGEXP_REPLACE(NodeText,'Non[- ]Current','Noncurrent'),Node) AS NodeText,
           IsLeafNode
         FROM
-          `@{GCP_PROJECT}.@{REPORTING_DATASET}.BalanceSheet`
+          `credibanco-cortex-poc.SAP_REPORTING.BalanceSheet`
         GROUP BY
           Client,
           ChartOfAccounts,
