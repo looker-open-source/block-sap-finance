@@ -105,7 +105,8 @@
     fields: [materials_md.material_text_maktx, sales_orders.avg_list_price_global_currency_customer,
       sales_orders.avg_intercompany_price_global_currency]
     filters:
-      sales_orders.avg_intercompany_price_global_currency: NOT NULL
+    # Se comenta aqui para test
+      # sales_orders.avg_intercompany_price_global_currency: NOT NULL
     sorts: [sales_orders.avg_intercompany_price_global_currency desc]
     limit: 500
     x_axis_gridlines: false
@@ -173,7 +174,8 @@
     type: single_value
     fields: [sales_orders.dash_nav]
     filters:
-      sales_orders.creation_date_erdat_date: 2022/01/01 to 2022/04/22
+    # Se actualiza la fecha
+      sales_orders.creation_date_erdat_date: 2024/01/01 to 2024/12/31
     limit: 500
     column_limit: 50
     custom_color_enabled: true
