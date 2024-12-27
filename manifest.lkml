@@ -1,15 +1,15 @@
 constant: CONNECTION_NAME {
-  value: "sap-cortex-prj-dev"
+  value: "sap-datawarehouse"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "cortex-prj-dev"
+  value: "datawarehouse-414323"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "SAP_REPORTING_PRD"
+  value: "cortex_core"
   export: override_required
 }
 
