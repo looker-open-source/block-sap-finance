@@ -10,6 +10,24 @@ view: materials_md {
     hidden: no
   }
 
+  dimension: nombre2_jerarquia {
+    type: string
+    sql: ${TABLE}.product_hierarchy_name2 ;;
+    hidden: no
+  }
+
+  dimension: nombre3_jerarquia {
+    type: string
+    sql: ${TABLE}.product_hierarchy_name3 ;;
+    hidden: no
+  }
+
+  dimension: nombre4_jerarquia {
+    type: string
+    sql: ${TABLE}.product_hierarchy_name4 ;;
+    hidden: no
+  }
+
   dimension: key {
     type: string
     primary_key: yes
