@@ -11,6 +11,30 @@ view: customers_md {
   
   fields_hidden_by_default: yes
 
+  dimension: nombre1_jerarquia {
+    type: string
+    sql: ${TABLE}.CustomerName1 ;;
+    hidden: no
+  }
+
+  dimension: nombre2_jerarquia {
+    type: string
+    sql: ${TABLE}.CustomerName2 ;;
+    hidden: no
+  }
+
+  dimension: nombre3_jerarquia {
+    type: string
+    sql: ${TABLE}.CustomerName3 ;;
+    hidden: no
+  }
+
+  dimension: nombre4_jerarquia {
+    type: string
+    sql: ${TABLE}.CustomerName4 ;;
+    hidden: no
+  }
+
   dimension: key {
     type: string
     primary_key: yes
