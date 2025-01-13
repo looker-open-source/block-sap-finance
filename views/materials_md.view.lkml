@@ -4,6 +4,12 @@ view: materials_md {
   
   fields_hidden_by_default: yes
 
+  dimension: nombre1_jerarquia {
+    type: string
+    sql: ${TABLE}.product_hierarchy_name1 ;;
+    hidden: no
+  }
+
   dimension: key {
     type: string
     primary_key: yes
