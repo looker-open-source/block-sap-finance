@@ -9,6 +9,8 @@ view: sales_orders {
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Account Assignment Category Knttp" in Explore.
 
+  #TEST ELEVEN SOLUTIONS
+
   fields_hidden_by_default: yes
 
   dimension: key {
