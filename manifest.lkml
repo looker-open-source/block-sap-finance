@@ -1,19 +1,19 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "arda-staging"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "arda-staging"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "cortex_reporting"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "010"
   export: override_required
 }
