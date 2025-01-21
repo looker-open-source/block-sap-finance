@@ -36,7 +36,6 @@ view: +universal_ledgers_md {
   }
 
   dimension: name_name {
-    hidden: yes
     label: "Ledger Name"
   }
 
