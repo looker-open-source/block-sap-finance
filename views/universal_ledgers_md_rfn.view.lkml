@@ -43,7 +43,8 @@ view: +universal_ledgers_md {
     hidden: no
     label: "Ledger ID - Name"
     description: "Concatentation of Ledger ID and Name (e.g., 0L - Leading Ledger)"
-    sql: CONCAT(${ledger_rldnr},' - ',${name_name}) ;;
+    #sql: CONCAT(${ledger_rldnr},' - ',${name_name}) ;;
+    sql: ${ledger_rldnr} ;;
   }
 
   dimension: is_leading_ledger{
