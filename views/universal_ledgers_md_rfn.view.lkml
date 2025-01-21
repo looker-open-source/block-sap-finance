@@ -31,11 +31,12 @@ view: +universal_ledgers_md {
   }
 
   dimension: ledger_rldnr {
+    hidden: no
     label: "Ledger RLDNR"
   }
 
   dimension: name_name {
-    hidden: no
+    hidden: yes
     label: "Ledger Name"
   }
 
