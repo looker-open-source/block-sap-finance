@@ -9,7 +9,7 @@ constant: GCP_PROJECT {
 }
 
 constant: REPORTING_DATASET {
-  value: "cortex_core"
+  value: "cortex_deacero"
   export: override_required
 }
 
